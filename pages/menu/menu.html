@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Delícia - Cardápio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="menu.css">
+  <script src="https://cdn.jsdelivr.net/npm/barba.js/dist/barba.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="../../page-transitions.js"></script>
+</head>
+<body>
+  <!-- Inclua o Navbar usando JavaScript -->
+  <div class="container" id="navbar-container"></div>
+  <div class="container">
+    <include src="navbar.html"></include>
+    <!-- Seção Cardápio -->
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2>Cardápio</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center" data-toggle="collapse" href="#dish1" role="button" aria-expanded="false" aria-controls="dish1">
+              <h4>Frango Grelhado</h4>
+              <img src="https://images.unsplash.com/photo-1680529672752-e1f7fcadb0bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Frango Grelhado" class="dish-image">
+            </div>
+            <div class="collapse" id="dish1">
+              <div class="card card-body">
+                <h5>Ingredientes:</h5>
+                <p>Peito de frango, temperos, azeite, limão.</p>
+                <h5>Modo de Preparo:</h5>
+                <p>Lave o peito de frango, tempere, grelhe até dourar.</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center" data-toggle="collapse" href="#dish2" role="button" aria-expanded="false" aria-controls="dish2">
+              <h4>Massa Carbonara</h4>
+              <img src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Massa Carbonara" class="dish-image">
+            </div>
+            <div class="collapse" id="dish2">
+              <div class="card card-body">
+                <h5>Ingredientes:</h5>
+                <p>Massa, ovos, queijo parmesão, pancetta, pimenta preta.</p>
+                <h5>Modo de Preparo:</h5>
+                <p>Cozinhe a massa, misture os ovos, queijo e pancetta.</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center" data-toggle="collapse" href="#dish3" role="button" aria-expanded="false" aria-controls="dish3">
+              <h4>Salmão ao Molho de Maracujá</h4>
+              <img src="https://images.unsplash.com/photo-1549592405-e236a69024ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Salmão ao Molho de Maracujá" class="dish-image">
+            </div>
+            <div class="collapse" id="dish3">
+              <div class="card card-body">
+                <h5>Ingredientes:</h5>
+                <p>Filé de salmão, maracujá, açúcar, manteiga.</p>
+                <h5>Modo de Preparo:</h5>
+                <p>Prepare o molho de maracujá e cozinhe o salmão.</p>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center" data-toggle="collapse" href="#dish4" role="button" aria-expanded="false" aria-controls="dish4">
+              <h4>Risoto de Cogumelos</h4>
+              <img src="https://images.unsplash.com/photo-1637361874063-e5e415d7bcf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Risoto de Cogumelos" class="dish-image">
+            </div>
+            <div class="collapse" id="dish4">
+              <div class="card card-body">
+                <h5>Ingredientes:</h5>
+                <p>Arroz arbóreo, cogumelos, cebola, vinho branco, caldo de legumes.</p>
+                <h5>Modo de Preparo:</h5>
+                <p>Refogue a cebola, adicione o arroz e cogumelos, cozinhe.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="menu.js"></script>
+</body>
+</html>

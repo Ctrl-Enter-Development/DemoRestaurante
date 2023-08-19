@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Delícia - Faça sua Reserva</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="reservation.css">
+  <script src="https://cdn.jsdelivr.net/npm/barba.js/dist/barba.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="../../page-transitions.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+  <!-- Inclua o Navbar usando JavaScript -->
+  <div class="container" id="navbar-container"></div>
+  <div class="container">
+    <include src="navbar.html"></include>
+    <!-- Seção Faça sua Reserva -->
+    <section id="reservation" class="py-5 text-center">
+      <div class="container">
+        <h2>Faça sua Reserva</h2>
+        <p>Para desfrutar de uma refeição incrível em nosso restaurante, faça sua reserva agora.</p>
+        <form id="reservation-form">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <label for="people">Quantidade de Pessoas:</label>
+            <input type="number" class="form-control" id="people" name="people" required>
+          </div>
+          <div class="form-group">
+            <label for="observation">Observação:</label>
+            <textarea class="form-control" id="observation" name="observation"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Reservar</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script src="reservation.js"></script>
+ 
+</body>
+</html>

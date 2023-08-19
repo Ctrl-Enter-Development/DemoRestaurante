@@ -1,0 +1,19 @@
+/* Estilos para a Página Inicial */
+.container {
+    background-color: "#fff";
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h1 {
+    color: #343a40;
+  }
+  
+  .container p {
+    color: #6c757d;
+  }
+  
+  .containerIntro{
+    background-image: url('https://images.unsplash.com/photo-1599458353501-d8cc3a32b4c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+  }
